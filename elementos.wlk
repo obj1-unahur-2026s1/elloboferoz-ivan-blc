@@ -32,10 +32,7 @@ object escopeta {
     method dispararSiEsPosible() {
         if (balas > 0) {
             balas -= 1
-            disparosRealizados += 1
-            return "Disparo realizado"
-        } else {
-            return "No tengo balas"
+            disparosRealizados += 1 
         }
             
     }
