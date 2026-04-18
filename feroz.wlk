@@ -15,9 +15,8 @@ object feroz {
         peso += alimento.peso() * 0.1
     }
 
-    method correrHacia_(destino){
+    method correrHaciaAlgunLado(){
         peso -= 1
-        return "Corriendo hacia " + destino
     }
 
     method sufrirCrisis() { 

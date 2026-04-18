@@ -6,9 +6,9 @@ import elementos.*
 
 object narrarHistoria {
     method finalBueno() {
-        feroz.correrHacia_('el bosque')
+        feroz.correrHaciaAlgunLado()
         feroz.conversarCon_('caperucita')
-        feroz.correrHacia_('la casa de la abuelita')
+        feroz.correrHaciaAlgunLado()
         feroz.ingerirAlimento_(abuelita)
         feroz.disfrazarseDeAbuelita()
         caperucita.perderManzana()
@@ -18,13 +18,13 @@ object narrarHistoria {
         cazador.apretarGatillo()
         feroz.esquivarAtaque()
         feroz.sufrirCrisis()
-        feroz.correrHacia_('la cueva')
+        feroz.correrHaciaAlgunLado()
     }
 
     method finalMalo() {
-        feroz.correrHacia_('el bosque')
+        feroz.correrHaciaAlgunLado()
         feroz.conversarCon_('caperucita')
-        feroz.correrHacia_('la casa de la abuelita')
+        feroz.correrHaciaAlgunLado()
         feroz.ingerirAlimento_(abuelita)
         feroz.disfrazarseDeAbuelita()
         caperucita.perderManzana()
